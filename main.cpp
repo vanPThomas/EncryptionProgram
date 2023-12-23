@@ -65,6 +65,8 @@ int main()
     // Generate encryption key
     std::string encryptionKey = generateEncryptionKey();
 
+    std::cout << encryptionKey << std::endl;
+
     // Encrypt the key using the password
     std::string encryptedKey = encryptData(encryptionKey, password);
 
