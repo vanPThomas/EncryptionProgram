@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+EncryptionProgram
+
+encrypted_key.txt
+
+.vscode
